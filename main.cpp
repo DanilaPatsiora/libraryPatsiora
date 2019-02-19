@@ -25,6 +25,7 @@ struct Book
 };
 struct Reader
 {
+	Date date_a;
     Date date_r;            // дата рождения
     char surname[15];       //фамилия
     char name[15];          //имя
